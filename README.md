@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning ify academy
 - 👯 I collaborate to improve my programmming skilss
 - 🤔 I’m looking for help with building programming skills
-- 💬 Ask me about which kind of projects i like to collaborate on
+- 💬 Ask me about programming languages
   
   
 
