@@ -1,15 +1,10 @@
-# about me
+
+Hi there I am Janet Sombo, eager to learn about programming and enter into the world of coding
+although I am still learning, I aspire to be a full skilled full stack developer so that I can work and make an impact in the tech industry.
+I am currently learning about linux and the different languages used in programming such as python, c++ and HTML
+i am looking to collaborate with different people in projects and learn new skills
 
 
-**janetsombo021-max/janetsombo021-max** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on programming
-- 🌱 I’m currently learning ify academy
-- 👯 I collaborate to improve my programmming skilss
-- 🤔 I’m looking for help with building programming skills
-- 💬 Ask me about programming languages
   
   
 
