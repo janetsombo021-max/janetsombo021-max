@@ -21,5 +21,100 @@ I am a programmer who loves breaking down complex problems into simple, elegant 
 ### Badges
 
 <b>My GitHub Stats</b>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Blog — Semantic HTML Example</title>
+  <meta name="description" content="Technical examples showing semantic HTML for SEO and accessibility." />
+  <!-- JSON-LD structured data: article example -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Semantic HTML Basics",
+    "datePublished": "2025-09-02",
+    "author": {
+      "@type": "Person",
+      "name": "My Blog Author"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "My Blog"
+    }
+  }
+  </script>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; line-height: 1.5; padding: 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    header, footer, nav, main, article, aside, section { display: block; }
+    nav ul { list-style: none; padding: 0; display: flex; gap: 12px; margin: 0; }
+    .meta { color: #666; font-size: 0.95rem; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Skip link for keyboard/screen-reader users -->
+    <a class="sr-only" href="#main-content">Skip to main content</a>
+
+    <!-- Header with site title and main nav landmark -->
+    <header role="banner" aria-label="Site header">
+      <h1>My Blog</h1>
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main: single landmark per page -->
+    <main id="main-content" role="main">
+      <!-- Article: self-contained content piece -->
+      <article itemscope itemtype="https://schema.org/BlogPosting" aria-labelledby="post-title">
+        <header>
+          <h2 id="post-title" itemprop="headline">Semantic HTML Basics</h2>
+          <p class="meta">
+            <time datetime="2025-09-02" itemprop="datePublished">Published on September 2, 2025</time>
+            <!-- author microdata -->
+            <span aria-hidden="true"> • </span>
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+              <span itemprop="name">My Blog Author</span>
+            </span>
+          </p>
+        </header>
+
+        <section aria-labelledby="why-it-matters" itemprop="articleBody">
+          <h3 id="why-it-matters">Why it matters</h3>
+          <p>Using semantic tags like <code>&lt;article&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;nav&gt;</code> improves accessibility and helps search engines determine page structure.</p>
+        </section>
+
+        <section aria-labelledby="practical-tips">
+          <h3 id="practical-tips">Practical tips</h3>
+          <p>Prefer native elements—use <code>&lt;button&gt;</code> for clickable controls, headings for structure, and lists for navigation items.</p>
+        </section>
+      </article>
+
+      <!-- Aside: complementary content, marked for accessibility -->
+      <aside aria-labelledby="related-heading" role="complementary">
+        <h4 id="related-heading">Related Articles</h4>
+        <ul>
+          <li><a href="/article1">Improving Forms with ARIA</a></li>
+          <li><a href="/article2">Accessible Navigation</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Footer landmark -->
+    <footer role="contentinfo">
+      <p>&copy; 2025 My Blog</p>
+      <p><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></p>
+    </footer>
+  </div>
+</body>
+</html>
 
 <a href="http://www.github.com/"><img src="https://github-readme-stats.vercel.app/api?username=&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="'s GitHub stats" /></a>
